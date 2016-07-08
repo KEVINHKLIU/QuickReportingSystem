@@ -12,5 +12,6 @@
 ##專案介紹簡報
 > https://drive.google.com/open?id=0B3a8yIQ1X1Cucms3b0NaLVF5a0k<br>
 
-####系統架構圖
-(http://github.com/kevinhkliu/QuickReportingSystem/raw/master/image/SystemArchitecture.png)
+####系統流程圖
+
+<img src='https://drive.google.com/drive/folders/0B3a8yIQ1X1CuZ1FyZFBCcVhPdTQ/SystemArchitecture.PNG' alt='#' width:'469.5' height='350'/>
