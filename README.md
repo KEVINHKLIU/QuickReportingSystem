@@ -49,5 +49,16 @@
 ####系統架構圖
 <br/>![step](https://github.com/KEVINHKLIU/QuickReportingSystem/blob/master/image/SystemArchitecture.PNG)<br/>
 
+####系統溝通流程圖
+<br/>![step](https://github.com/KEVINHKLIU/QuickReportingSystem/blob/master/image/CommunicationSystemFlowchart.jpg)<br/>
+
+####軟體架構圖
+<br/>![step](https://github.com/KEVINHKLIU/QuickReportingSystem/blob/master/image/SoftwareArchitecture.PNG)<br/>
+
+####系統流程圖
+<br/>![step](https://github.com/KEVINHKLIU/QuickReportingSystem/blob/master/image/ExecutionSystemFlowchart.PNG)<br/>
+
+####結論
+本專案針對現行報案系統存在的問題，以台中市為初始建構模板，設計了一套具通報能力與即時處理的系統。以一般使用者的角度，在單一框架下，能直覺的進行報案，在直接定位下，無須攪盡腦汁的描述案發地點，更不用將現場情形再經口述轉達；以處理人員角度，更清楚掌握報案位置與現場情形，整合性了瞭解重大案件的第一線情形；對傷患而言，第一次到院就能立即進行就診，無須再等待。最後再透過各案件的處理追蹤，讓一般大眾了解目前災害意外的第一手消息。
 
 =============================================================================
