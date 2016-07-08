@@ -13,4 +13,4 @@
 > https://drive.google.com/open?id=0B3a8yIQ1X1Cucms3b0NaLVF5a0k<br>
 
 ##專案介紹海報
-<img src='https://drive.google.com/open?id=0B3a8yIQ1X1CubVNhRlpVRGgxUm8'  alt='#' width:'674' height='347'/>
+<img src='https://drive.google.com/drive/folders/0B3a8yIQ1X1CuZ1FyZFBCcVhPdTQ'  alt='#' width:'674' height='347'/>
