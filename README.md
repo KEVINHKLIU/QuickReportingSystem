@@ -12,5 +12,5 @@
 ##專案介紹簡報
 > https://drive.google.com/open?id=0B3a8yIQ1X1Cucms3b0NaLVF5a0k<br>
 
-##專案介紹海報
-<img src='https://drive.google.com/drive/folders/0B3a8yIQ1X1CuZ1FyZFBCcVhPdTQ'  alt='#' width:'674' height='347'/>
+####系統架構圖
+<img src='https://drive.google.com/open?id=0B3a8yIQ1X1CucmdfY1lqNWQ5LXM'  alt='#' width:'674' height='347'/>
