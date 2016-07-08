@@ -13,4 +13,4 @@
 > https://drive.google.com/open?id=0B3a8yIQ1X1Cucms3b0NaLVF5a0k<br>
 
 ####系統架構圖
-<img src='https://drive.google.com/open?id=0B3a8yIQ1X1CucmdfY1lqNWQ5LXM'  alt='#' width:'674' height='347'/>
+<img src='https://drive.google.com/file/d/0B3a8yIQ1X1CucmdfY1lqNWQ5LXM/view?usp=sharing'  alt='#' width:'674' height='347'/>
