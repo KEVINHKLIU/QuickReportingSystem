@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="傷者概況(其它)"
+            android:id="@+id/othherInfo"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:text="精神異常"
+            android:id="@+id/精神異常"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:layout_weight="0.35"
+            android:textSize="40sp"
+            android:textColor="#ff3300" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:text="內外骨外"
+            android:id="@+id/內外骨外"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:layout_weight="0.35"
+            android:textSize="40sp"
+            android:textColor="#993300" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.1">
+
+        <CheckBox
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:text="多重藥物過量或中毒"
+            android:id="@+id/多重藥物過量或中毒"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:layout_weight="0.35"
+            android:textSize="35sp"
+            android:textColor="#006600" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.15">
+
+        <Button
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:text="確定"
+            android:id="@+id/確定"
+            android:textSize="40sp"
+            android:textColor="#ff0000"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.11" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="無限制收治需求"
+            android:id="@+id/無限制收治需求"
+            android:textSize="40sp"
+            android:textColor="#0000ff"
+            android:layout_weight="0.55"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</LinearLayout>

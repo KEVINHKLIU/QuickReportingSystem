@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/請點選需要的救護單位"
+        android:id="@+id/請點選需要的救護單位"
+        android:textSize="30sp"
+        android:layout_weight="0.35" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="103sp"
+            android:text="@string/單純救護"
+            android:id="@+id/單純救護"
+            android:textSize="40sp"
+            android:background="#ff0033" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:weightSum="1"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="103sp"
+            android:text="@string/警察"
+            android:id="@+id/警察"
+            android:textSize="40sp"
+            android:background="#3366ff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="103sp"
+            android:text="@string/消防"
+            android:id="@+id/消防"
+            android:textSize="40sp"
+                   android:background="#ff0033" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="103sp"
+            android:text="@string/警察和消防"
+            android:id="@+id/警察和消防"
+            android:textSize="40sp"
+            android:background="#3366ff" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView android:text="經緯度" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv"
+        android:background="#000"
+        android:textColor="#fff" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="380dp">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:id="@+id/map"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3.95" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.25" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:id="@+id/返回"
+            android:layout_weight="0.56"
+            android:textSize="30sp"
+            android:background="#ff0000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="抵達醫院"
+            android:id="@+id/抵達醫院"
+            android:layout_weight="0.56"
+            android:textSize="30sp"
+            android:background="#0000ff" />
+    </LinearLayout>
+
+
+</LinearLayout>

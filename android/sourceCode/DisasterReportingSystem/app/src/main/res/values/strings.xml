@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">DisasterReportingSystem</string>
+    <string name="camera">拍照(可拍多張)</string>
+
+    <string name="人員傷亡數">人員傷亡數</string>
+    <string name="無人員傷亡">無人員傷亡</string>
+    <string name="有受傷">有受傷</string>
+
+    <string name="請點選需要的救護單位">請點選需要的救護單位</string>
+    <string name="警察單位">警察單位</string>
+    <string name="消防單位">消防單位</string>
+
+
+    <string name="請點選通報單位">請點選通報單位</string>
+    <string name="單純救護">單純救護車</string>
+    <string name="警察">警察單位</string>
+    <string name="消防">消防單位</string>
+    <string name="警察和消防">警察和消防單位</string>
+
+    <string name="選擇案件類別">選擇案件類別</string>
+    <string name="重大刑案">重大刑案</string>
+    <string name="一般刑案">一般刑案</string>
+    <string name="交通事故">交通事故</string>
+    <string name="為民服務">為民服務</string>
+
+    <string name="選擇項目">選擇項目</string>
+    <string name="強盜">強盜</string>
+    <string name="搶奪">搶奪</string>
+    <string name="故意殺人">故意殺人</string>
+    <string name="槍擊">槍擊</string>
+    <string name="強制性交">強制性交</string>
+    <string name="重傷害">重傷害</string>
+    <string name="重大恐嚇取財">重大恐嚇取財</string>
+    <string name="擄人勒贖">擄人勒贖</string>
+    <string name="殺人未遂">殺人未遂</string>
+    <string name="其它">其它</string>
+    <string name="輸入傷亡人數後再按其他按鈕">輸入傷亡人數後再按其他按鈕</string>
+    <string name="輸入案件後再按其他按鈕">輸入案件後再按其他按鈕</string>
+
+    <string name="傷害">傷害</string>
+    <string name="恐嚇取財">恐嚇取財</string>
+    <string name="一般竊盜">一般竊盜</string>
+    <string name="汽機車竊盜">汽機車竊盜</string>
+    <string name="詐欺賭博">詐欺賭博</string>
+    <string name="毀損">毀損</string>
+    <string name="公共安全">公共安全</string>
+    <string name="妨礙自由">妨礙自由</string>
+    <string name="妨礙風化">妨礙風化</string>
+    <string name="猥褻">猥褻</string>
+    <string name="煙毒">煙毒</string>
+
+
+    <string name="妨礙安寧">妨礙安寧</string>
+    <string name="家庭暴力">家庭暴力</string>
+    <string name="違規檢舉">違規檢舉</string>
+
+    <string name="緊急救護">緊急救護</string>
+    <string name="火警出勤">火警出勤</string>
+
+
+    <string name="積水地區">積水地區</string>
+    <string name="天然災害">天然災害</string>
+    <string name="路樹傾倒">路樹傾倒</string>
+    <string name="房屋淹水">房屋淹水</string>
+    <string name="招牌掉落">招牌掉落</string>
+    <string name="土石">土石</string>
+
+
+    <string name="抓蜂">抓蜂</string>
+    <string name="捕蛇">捕蛇</string>
+    <string name="開鎖破門">開鎖破門</string>
+    <string name="救貓狗">救貓狗</string>
+    <string name="受困案件">受困案件(電梯.車禍.工地等)</string>
+
+    <string name="溺水">溺水</string>
+    <string name="急病">急病</string>
+    <string name="精神異常">精神異常</string>
+    <string name="癲癇">癲癇</string>
+    <string name="孕婦急產">孕婦急產</string>
+    <string name="中毒相關">中毒相關</string>
+
+    <string name="完成">完成(最多10張)</string>
+    <string name="確認無誤並通報">確認無誤並通報</string>
+    <string name="按下返回鍵重新通報">按下返回鍵重新通報</string>
+
+    <string name="title_activity_camera">camera</string>
+    <string name="title_activity_inform_unit">inform_unit</string>
+    <string name="title_activity_emergy_camera">emergy_camera</string>
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="傷者概況(燒傷)"
+            android:id="@+id/burnInfo"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.19"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="嚴重燒傷"
+            android:id="@+id/嚴重燒傷"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:layout_weight="0.55"
+            android:textSize="40sp"
+            android:textColor="#ff3300" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:weightSum="1">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="燒傷超過40%"
+            android:id="@+id/燒傷超過40"
+            android:checked="false"
+            android:layout_weight="0.55"
+            android:textSize="40sp"
+            android:textColor="#993300"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:text="確定"
+            android:id="@+id/確定"
+            android:textSize="40sp"
+            android:textColor="#ff0000"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.68" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="無限制收治需求"
+            android:id="@+id/無限制收治需求"
+            android:textSize="40sp"
+            android:textColor="#0000ff"
+            android:layout_weight="0.55"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

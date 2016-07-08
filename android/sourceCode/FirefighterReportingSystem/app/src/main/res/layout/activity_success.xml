@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="接收案件"
+            android:id="@+id/接收案件"
+            android:textSize="30sp"
+            android:background="#00ff33"
+            android:layout_weight="0.18" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.18"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.25" >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="接收重大案件"
+                    android:id="@+id/接收重大案件"
+                    android:layout_weight="0.56"
+                    android:textSize="30sp"
+                    android:background="#ff0000"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="接收一般案件"
+                    android:id="@+id/接收一般案件"
+                    android:layout_weight="0.56"
+                    android:textSize="30sp"
+                    android:background="#0000ff"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.66"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.83"
+            android:weightSum="1" >
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:text="導航"
+                android:id="@+id/導航"
+                android:layout_gravity="right"
+                android:layout_weight="0.18"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:text="顯示災情資訊"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30sp"
+            android:layout_weight="0.83" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.25">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="出勤"
+                android:id="@+id/出勤"
+                android:layout_weight="0.56"
+                android:textSize="30sp"
+                android:background="#ff0000" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="抵達現場"
+                android:id="@+id/抵達現場"
+                android:layout_weight="0.56"
+                android:textSize="30sp"
+                android:background="#0000ff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

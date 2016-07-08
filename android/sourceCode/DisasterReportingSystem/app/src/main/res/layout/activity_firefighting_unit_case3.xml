@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/選擇項目"
+        android:id="@+id/選擇項目"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2" >
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/溺水"
+            android:id="@+id/溺水"
+            android:textSize="40sp"
+            android:background="#ff6600"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/急病"
+            android:id="@+id/急病"
+            android:textSize="40sp"
+            android:background="#ff3300"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2" >
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/精神異常"
+            android:id="@+id/精神異常"
+            android:textSize="40sp"
+            android:background="#ff6600"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/癲癇"
+            android:id="@+id/癲癇"
+            android:textSize="40sp"
+            android:background="#ff3300"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:text="@string/孕婦急產"
+            android:id="@+id/孕婦急產"
+            android:textSize="40sp"
+            android:background="#ff6600"
+            android:layout_gravity="center"
+            android:layout_weight="1.49" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/中毒相關"
+            android:id="@+id/中毒相關"
+            android:textSize="40sp"
+            android:background="#ff3300"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/其它"
+            android:id="@+id/其它"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:hint="@string/輸入案件後再按其他按鈕"
+            android:textSize="20sp"
+            android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

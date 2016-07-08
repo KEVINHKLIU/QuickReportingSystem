@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/選擇項目"
+        android:id="@+id/選擇項目"
+        android:textSize="50sp" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2">
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="70dp"
+            android:text="@string/強盜"
+            android:id="@+id/強盜"
+            android:textSize="30sp"
+            android:background="#3399ff"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="70dp"
+            android:text="@string/搶奪"
+            android:id="@+id/搶奪"
+            android:textSize="30sp"
+            android:background="#0066ff"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="@string/槍擊"
+            android:id="@+id/槍擊"
+            android:textSize="30sp"
+            android:layout_gravity="center_vertical"
+            android:background="#3399ff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2" >
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="70dp"
+            android:text="@string/擄人勒贖"
+            android:id="@+id/擄人勒贖"
+            android:textSize="30sp"
+            android:background="#3399ff"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="70dp"
+            android:text="@string/殺人未遂"
+            android:id="@+id/殺人未遂"
+            android:textSize="30sp"
+            android:background="#0066ff"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2" >
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="70dp"
+            android:text="@string/故意殺人"
+            android:id="@+id/故意殺人"
+            android:textSize="30sp"
+            android:background="#3399ff"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="70dp"
+            android:text="@string/強制性交"
+            android:id="@+id/強制性交"
+            android:textSize="30sp"
+            android:background="#0066ff"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2" >
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="70dp"
+            android:text="@string/重大恐嚇取財"
+            android:id="@+id/重大恐嚇取財"
+            android:textSize="30sp"
+            android:background="#3399ff"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="70dp"
+            android:text="@string/重傷害"
+            android:id="@+id/重傷害"
+            android:textSize="30sp"
+            android:background="#0066ff"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/其它"
+            android:id="@+id/其它"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:hint="@string/輸入案件後再按其他按鈕"
+            android:textSize="20sp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+
+</LinearLayout>

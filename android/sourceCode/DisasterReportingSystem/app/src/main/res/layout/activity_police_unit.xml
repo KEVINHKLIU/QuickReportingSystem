@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/選擇案件類別"
+        android:id="@+id/案件類別"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.21">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:text="@string/重大刑案"
+            android:id="@+id/重大刑案"
+            android:textSize="50sp"
+            android:background="#3366ff"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.21">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="@string/一般刑案"
+            android:id="@+id/一般刑案"
+            android:textSize="50sp"
+            android:background="#3399ff"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:text="@string/為民服務"
+            android:id="@+id/為民服務1"
+            android:textSize="50sp"
+            android:layout_gravity="center_vertical"
+            android:background="#66ffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.21">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:text="@string/交通事故"
+            android:id="@+id/交通事故"
+            android:textSize="50sp"
+            android:background="#66ccff"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+</LinearLayout>

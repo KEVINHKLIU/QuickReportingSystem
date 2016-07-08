@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/選擇項目"
+        android:id="@+id/選擇項目"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2" >
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/積水地區"
+            android:id="@+id/積水地區"
+            android:textSize="40sp"
+            android:background="#ff6600"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/天然災害"
+            android:id="@+id/天然災害"
+            android:textSize="40sp"
+            android:background="#ff3300"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.2" >
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/路樹傾倒"
+            android:id="@+id/路樹傾倒"
+            android:textSize="40sp"
+            android:background="#ff6600"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/房屋淹水"
+            android:id="@+id/房屋淹水"
+            android:textSize="40sp"
+            android:background="#ff3300"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13" >
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/招牌掉落"
+            android:id="@+id/招牌掉落"
+            android:textSize="40sp"
+            android:background="#ff6600"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="129dp"
+            android:layout_height="90dp"
+            android:text="@string/土石"
+            android:id="@+id/土石"
+            android:textSize="40sp"
+            android:background="#ff3300"
+            android:layout_gravity="center"
+            android:layout_weight="0.5" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/其它"
+            android:id="@+id/其它"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:hint="@string/輸入案件後再按其他按鈕"
+            android:textSize="20sp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+
+</LinearLayout>
