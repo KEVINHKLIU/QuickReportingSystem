@@ -1,0 +1,257 @@
+<!DOCTYPE HTML>
+<!--
+	MegaCorp by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>病床資訊</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" />
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+        <script type="text/javascript" src="js/highcharts.js" ></script>
+        <script type="text/javascript" src="js/themes/gray.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+        <script type="text/javascript">
+
+        $(document).ready(function() {
+            var options = {
+                chart: {
+                    renderTo: 'container',
+                    type: 'column',
+                    marginRight: 130,
+                    marginBottom: 25
+                },
+                title: {
+                    text: '重度醫院剩餘病床即時動態表',
+                    x: -20 //center
+                },
+                subtitle: {
+                    text: '',
+                    x: -20
+                },
+                xAxis: {
+                    categories: []
+                },
+                yAxis: {
+                    title: {
+                        text: '目前剩餘床數'
+                    },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                tooltip: {
+                    formatter: function() {
+                            return '<b>'+ this.series.name +'</b><br/>'+
+                            this.x +': '+ this.y;
+                    }
+                },
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
+                },
+                series: []
+            }
+            
+            $.getJSON("firstHospitalData.php", function(json) {
+                options.xAxis.categories = json[0]['data'];
+                options.series[0] = json[1];
+                options.series[1] = json[2];
+                options.series[2] = json[3];
+                chart = new Highcharts.Chart(options);
+            });
+
+
+        });
+
+            $(document).ready(function() {
+            var options = {
+                chart: {
+                    renderTo: 'container2',
+                    type: 'column',
+                    marginRight: 130,
+                    marginBottom: 25
+                },
+                title: {
+                    text: '中度醫院剩餘病床即時動態表',
+                    x: -20 //center
+                },
+                subtitle: {
+                    text: '',
+                    x: -20
+                },
+                xAxis: {
+                    categories: []
+                },
+                yAxis: {
+                    title: {
+                        text: '目前剩餘床數'
+                    },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                tooltip: {
+                    formatter: function() {
+                            return '<b>'+ this.series.name +'</b><br/>'+
+                            this.x +': '+ this.y;
+                    }
+                },
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
+                },
+                series: []
+            }
+            
+            $.getJSON("secondHospitalData.php", function(json) {
+                options.xAxis.categories = json[0]['data'];
+                options.series[0] = json[1];
+                options.series[1] = json[2];
+                options.series[2] = json[3];
+                chart = new Highcharts.Chart(options);
+            });
+        });
+
+        $(document).ready(function() {
+            var options = {
+                chart: {
+                    renderTo: 'container3',
+                    type: 'column',
+                    marginRight: 130,
+                    marginBottom: 25
+                },
+                title: {
+                    text: '輕度醫院剩餘病床即時動態表',
+                    x: -20 //center
+                },
+                subtitle: {
+                    text: '',
+                    x: -20
+                },
+                xAxis: {
+                    categories: []
+                },
+                yAxis: {
+                    title: {
+                        text: '目前剩餘床數'
+                    },
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+                        color: '#808080'
+                    }]
+                },
+                tooltip: {
+                    formatter: function() {
+                            return '<b>'+ this.series.name +'</b><br/>'+
+                            this.x +': '+ this.y;
+                    }
+                },
+                legend: {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'top',
+                    x: -10,
+                    y: 100,
+                    borderWidth: 0
+                },
+                series: []
+            }
+            
+            $.getJSON("thirdHospitalData.php", function(json) {
+                options.xAxis.categories = json[0]['data'];
+                options.series[0] = json[1];
+                options.series[1] = json[2];
+                options.series[2] = json[3];
+                chart = new Highcharts.Chart(options);
+            });
+        });
+
+
+        </script>
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+
+	<body>
+
+		<!-- Header -->
+		<div id="header-wrapper">
+		
+        	<div id="header" class="container">
+            
+                <div id="logo"><h1><a href="#"><font face="微軟正黑體">城市守護一點通</font></a></h1></div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="CurrentCase.html"><font face="微軟正黑體">即時案件</font></a></li>
+                        <li class="current_page_item"><font face="微軟正黑體"><a href="BedsInfo.html">病床資訊</font></a></li>
+                        <li><a href="PFLogin.html"><font face="微軟正黑體">警消登入</font></a></li>
+                        <li><a href="Info.html"><font face="微軟正黑體">資料來源</font></a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+
+		</div>
+		<!-- Header Ends Here -->
+
+		<!-- Page -->
+        
+        	<div id="page">
+            	<div class="container3">
+                	<div class="row"  align="center">
+                    
+                    	<div id="content" class="8u skel-cell-important"  align="center">
+                        	<article  align="center">
+                            	<header>
+                                    <h2 class="main-title"><font face="微軟正黑體"><font color="#A1FFFF">台中市17家責任醫院剩餘病床動態表</font></h2>
+                                </header>
+                               <p><font face="微軟正黑體"><font color="#FAFAFA">剩餘床數為-1者,表示該醫院病床無提供剩餘床位</font></font></p>
+                        
+                             
+                            </article>
+                        </div>
+                  
+                    
+                    </div>
+                </div>
+            </div>
+                    <div id="container" style="min-width: 500px; height: 400px; margin: 0 auto"></div>
+                                <br><br>
+                                <div id="container2" style="min-width: 600px; height: 400px; margin: 0 auto"></div>
+                                <br><br>
+                                <div id="container3" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+		<!-- /Page -->
+
+
+
+	</body>
+</html>
